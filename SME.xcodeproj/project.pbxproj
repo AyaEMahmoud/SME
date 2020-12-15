@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E012873425893A83004E551C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E012873325893A83004E551C /* Coordinator.swift */; };
+		E012873625893BEC004E551C /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E012873525893BEC004E551C /* MainCoordinator.swift */; };
 		E038BC032586E2680062EA67 /* Stage.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E038BC022586E2680062EA67 /* Stage.xcconfig */; };
 		E038BC052586E2740062EA67 /* Demo.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E038BC042586E2740062EA67 /* Demo.xcconfig */; };
 		E05433852580C0900036A881 /* 29LT_Azer-Medium.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E05433822580C0900036A881 /* 29LT_Azer-Medium.OTF */; };
@@ -94,6 +96,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E012873325893A83004E551C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E012873525893BEC004E551C /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		E038BC022586E2680062EA67 /* Stage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Stage.xcconfig; sourceTree = "<group>"; };
 		E038BC042586E2740062EA67 /* Demo.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Demo.xcconfig; sourceTree = "<group>"; };
 		E05433822580C0900036A881 /* 29LT_Azer-Medium.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "29LT_Azer-Medium.OTF"; sourceTree = "<group>"; };
@@ -171,6 +175,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E012873225893A6B004E551C /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				E012873325893A83004E551C /* Coordinator.swift */,
+				E012873525893BEC004E551C /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 		E038BC012586E2570062EA67 /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +225,7 @@
 		E0E70D44257B65B2009198C4 /* SME */ = {
 			isa = PBXGroup;
 			children = (
+				E012873225893A6B004E551C /* Coordinators */,
 				E038BC012586E2570062EA67 /* Config */,
 				E0F0B876257E5804002B1912 /* InternetChecker.swift */,
 				E0E70DF7257DFE85009198C4 /* Presenters */,
@@ -578,11 +592,13 @@
 				E0F0B877257E5804002B1912 /* InternetChecker.swift in Sources */,
 				E0E70D7A257B6ABA009198C4 /* CardViewController.swift in Sources */,
 				E0E70DF0257D1A49009198C4 /* UIView+Extentions.swift in Sources */,
+				E012873625893BEC004E551C /* MainCoordinator.swift in Sources */,
 				E0E70DDB257CB096009198C4 /* UIButton+Extentions.swift in Sources */,
 				E0E70DF2257D1B88009198C4 /* NoInternet.swift in Sources */,
 				E0E70D9D257B7401009198C4 /* ProfilesService.swift in Sources */,
 				E0E70DCF257B74FA009198C4 /* SsoUser.swift in Sources */,
 				E0F0B875257E326B002B1912 /* File.swift in Sources */,
+				E012873425893A83004E551C /* Coordinator.swift in Sources */,
 				E0E70D80257B6B43009198C4 /* Card.swift in Sources */,
 				E0E70DD0257B74FA009198C4 /* Bsa.swift in Sources */,
 				E0E70DCC257B74FA009198C4 /* Profiles.swift in Sources */,

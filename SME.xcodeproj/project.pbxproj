@@ -14,7 +14,6 @@
 		E05433872580C0900036A881 /* 29LT_Azer-Regular.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E05433842580C0900036A881 /* 29LT_Azer-Regular.OTF */; };
 		E05433892580C19D0036A881 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05433882580C19D0036A881 /* Fonts.swift */; };
 		E054338B2580C3770036A881 /* ToastSwiftFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E054338A2580C3760036A881 /* ToastSwiftFramework.framework */; };
-		E054338C2580C3770036A881 /* ToastSwiftFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E054338A2580C3760036A881 /* ToastSwiftFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E0E70D46257B65B2009198C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E70D45257B65B2009198C4 /* AppDelegate.swift */; };
 		E0E70D48257B65B2009198C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E70D47257B65B2009198C4 /* SceneDelegate.swift */; };
 		E0E70D52257B65B4009198C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E70D50257B65B4009198C4 /* LaunchScreen.storyboard */; };
@@ -22,19 +21,12 @@
 		E0E70D5D257B664D009198C4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E0E70D5C257B664D009198C4 /* .gitignore */; };
 		E0E70D5F257B665A009198C4 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = E0E70D5E257B665A009198C4 /* Cartfile */; };
 		E0E70D62257B698D009198C4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E70D61257B698D009198C4 /* Alamofire.framework */; };
-		E0E70D63257B698D009198C4 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0E70D61257B698D009198C4 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E0E70D66257B6990009198C4 /* Cosmos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E70D65257B6990009198C4 /* Cosmos.framework */; };
-		E0E70D67257B6990009198C4 /* Cosmos.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0E70D65257B6990009198C4 /* Cosmos.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E0E70D69257B6994009198C4 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E70D68257B6994009198C4 /* Kingfisher.framework */; };
-		E0E70D6A257B6994009198C4 /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0E70D68257B6994009198C4 /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E0E70D6C257B6997009198C4 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E70D6B257B6997009198C4 /* Moya.framework */; };
-		E0E70D6D257B6997009198C4 /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0E70D6B257B6997009198C4 /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E0E70D6F257B699A009198C4 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E70D6E257B699A009198C4 /* ObjectMapper.framework */; };
-		E0E70D70257B699A009198C4 /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0E70D6E257B699A009198C4 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E0E70D72257B699C009198C4 /* PullToRefreshKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E70D71257B699C009198C4 /* PullToRefreshKit.framework */; };
-		E0E70D73257B699C009198C4 /* PullToRefreshKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0E70D71257B699C009198C4 /* PullToRefreshKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E0E70D75257B69A2009198C4 /* Windless.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E70D74257B69A2009198C4 /* Windless.framework */; };
-		E0E70D76257B69A2009198C4 /* Windless.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0E70D74257B69A2009198C4 /* Windless.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E0E70D7A257B6ABA009198C4 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E70D78257B6ABA009198C4 /* CardViewController.swift */; };
 		E0E70D7B257B6ABA009198C4 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E70D79257B6ABA009198C4 /* CardViewController.xib */; };
 		E0E70D80257B6B43009198C4 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E70D7E257B6B43009198C4 /* Card.swift */; };
@@ -62,13 +54,13 @@
 		E0E70DD5257BC585009198C4 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E70DD4257BC585009198C4 /* Networkable.swift */; };
 		E0E70DDB257CB096009198C4 /* UIButton+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E70DDA257CB096009198C4 /* UIButton+Extentions.swift */; };
 		E0E70DE1257CCE17009198C4 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E70DE0257CCE16009198C4 /* Reachability.framework */; };
-		E0E70DE2257CCE17009198C4 /* Reachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0E70DE0257CCE16009198C4 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E0E70DEE257CF6A5009198C4 /* NoInternet.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E70DEC257CF6A5009198C4 /* NoInternet.xib */; };
 		E0E70DF0257D1A49009198C4 /* UIView+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E70DEF257D1A49009198C4 /* UIView+Extentions.swift */; };
 		E0E70DF2257D1B88009198C4 /* NoInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E70DF1257D1B88009198C4 /* NoInternet.swift */; };
 		E0E70DFA257DFF44009198C4 /* CardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E70DF9257DFF44009198C4 /* CardPresenter.swift */; };
 		E0F0B875257E326B002B1912 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F0B874257E326B002B1912 /* File.swift */; };
 		E0F0B877257E5804002B1912 /* InternetChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F0B876257E5804002B1912 /* InternetChecker.swift */; };
+		F96BD7B97534C5CD0CD6159B /* Pods_SME.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5454AEDF620FE9C7247E49C /* Pods_SME.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -78,15 +70,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E0E70D6D257B6997009198C4 /* Moya.framework in Embed Frameworks */,
-				E0E70D67257B6990009198C4 /* Cosmos.framework in Embed Frameworks */,
-				E0E70D70257B699A009198C4 /* ObjectMapper.framework in Embed Frameworks */,
-				E0E70DE2257CCE17009198C4 /* Reachability.framework in Embed Frameworks */,
-				E054338C2580C3770036A881 /* ToastSwiftFramework.framework in Embed Frameworks */,
-				E0E70D76257B69A2009198C4 /* Windless.framework in Embed Frameworks */,
-				E0E70D6A257B6994009198C4 /* Kingfisher.framework in Embed Frameworks */,
-				E0E70D63257B698D009198C4 /* Alamofire.framework in Embed Frameworks */,
-				E0E70D73257B699C009198C4 /* PullToRefreshKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +77,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00FBB5E05AA081F9853BFF8E /* Pods-SME.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SME.release.xcconfig"; path = "Target Support Files/Pods-SME/Pods-SME.release.xcconfig"; sourceTree = "<group>"; };
+		2228BEE25E786EC13066975D /* Pods-SME.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SME.debug.xcconfig"; path = "Target Support Files/Pods-SME/Pods-SME.debug.xcconfig"; sourceTree = "<group>"; };
+		2C25C0F6A9712944CDFD92D9 /* Pods-SME.demo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SME.demo.xcconfig"; path = "Target Support Files/Pods-SME/Pods-SME.demo.xcconfig"; sourceTree = "<group>"; };
+		4CDEF10117D6F75A1AA898D1 /* Pods-SME.stage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SME.stage.xcconfig"; path = "Target Support Files/Pods-SME/Pods-SME.stage.xcconfig"; sourceTree = "<group>"; };
+		D5454AEDF620FE9C7247E49C /* Pods_SME.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SME.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E038BC022586E2680062EA67 /* Stage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Stage.xcconfig; sourceTree = "<group>"; };
 		E038BC042586E2740062EA67 /* Demo.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Demo.xcconfig; sourceTree = "<group>"; };
 		E05433822580C0900036A881 /* 29LT_Azer-Medium.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "29LT_Azer-Medium.OTF"; sourceTree = "<group>"; };
@@ -149,6 +137,7 @@
 		E0E70DF9257DFF44009198C4 /* CardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPresenter.swift; sourceTree = "<group>"; };
 		E0F0B874257E326B002B1912 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		E0F0B876257E5804002B1912 /* InternetChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetChecker.swift; sourceTree = "<group>"; };
+		E0F483C32593722100AD0EB0 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,12 +154,25 @@
 				E0E70D69257B6994009198C4 /* Kingfisher.framework in Frameworks */,
 				E0E70D62257B698D009198C4 /* Alamofire.framework in Frameworks */,
 				E0E70D72257B699C009198C4 /* PullToRefreshKit.framework in Frameworks */,
+				F96BD7B97534C5CD0CD6159B /* Pods_SME.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BCCA8C689E1818BAA03BFA1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2228BEE25E786EC13066975D /* Pods-SME.debug.xcconfig */,
+				00FBB5E05AA081F9853BFF8E /* Pods-SME.release.xcconfig */,
+				4CDEF10117D6F75A1AA898D1 /* Pods-SME.stage.xcconfig */,
+				2C25C0F6A9712944CDFD92D9 /* Pods-SME.demo.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E038BC012586E2570062EA67 /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +193,7 @@
 		E0E70D39257B65B2009198C4 = {
 			isa = PBXGroup;
 			children = (
+				E0F483C32593722100AD0EB0 /* Alamofire.framework */,
 				E0E70D5C257B664D009198C4 /* .gitignore */,
 				E0E70D5E257B665A009198C4 /* Cartfile */,
 				E0E70D59257B660E009198C4 /* .swiftlint.yml */,
@@ -198,6 +201,7 @@
 				E0E70D44257B65B2009198C4 /* SME */,
 				E0E70D43257B65B2009198C4 /* Products */,
 				E0E70D60257B698D009198C4 /* Frameworks */,
+				BCCA8C689E1818BAA03BFA1B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -243,6 +247,7 @@
 				E0E70D68257B6994009198C4 /* Kingfisher.framework */,
 				E0E70D65257B6990009198C4 /* Cosmos.framework */,
 				E0E70D61257B698D009198C4 /* Alamofire.framework */,
+				D5454AEDF620FE9C7247E49C /* Pods_SME.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -439,12 +444,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0E70D56257B65B4009198C4 /* Build configuration list for PBXNativeTarget "SME" */;
 			buildPhases = (
+				26035AEF5A5C452AC7E91ED5 /* [CP] Check Pods Manifest.lock */,
 				E0E70D3E257B65B2009198C4 /* Sources */,
 				E0E70D3F257B65B2009198C4 /* Frameworks */,
 				E0E70D40257B65B2009198C4 /* Resources */,
 				E0E70D5B257B6615009198C4 /* ShellScript */,
 				E0E70D64257B698D009198C4 /* Embed Frameworks */,
 				E0E70D77257B69AD009198C4 /* ShellScript */,
+				B97274453696C10EB085D65E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -515,6 +522,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		26035AEF5A5C452AC7E91ED5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SME-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B97274453696C10EB085D65E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SME/Pods-SME-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SME/Pods-SME-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SME/Pods-SME-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E0E70D5B257B6615009198C4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -884,6 +930,7 @@
 		};
 		E0E70D57257B65B4009198C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2228BEE25E786EC13066975D /* Pods-SME.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -907,6 +954,7 @@
 		};
 		E0E70D58257B65B4009198C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00FBB5E05AA081F9853BFF8E /* Pods-SME.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

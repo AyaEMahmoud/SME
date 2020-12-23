@@ -1,4 +1,4 @@
-github "Alamofire/Alamofire" "5.4.0"
+github "Alamofire/Alamofire" "5.4.1"
 github "Interactive-Studio/Windless" "0.1.5"
 github "LeoMobileDeveloper/PullToRefreshKit" "0.8.9"
 github "Moya/Moya" "14.0.0"

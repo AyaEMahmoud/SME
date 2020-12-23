@@ -1,0 +1,60 @@
+PODS:
+  - Alamofire (5.1.0)
+  - Cosmos (23.0.0)
+  - FittedSheets (2.2.3)
+  - Kingfisher (5.14.0):
+    - Kingfisher/Core (= 5.14.0)
+  - Kingfisher/Core (5.14.0)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - ObjectMapper (3.5.2)
+  - PullToRefreshKit (0.8.8)
+  - ReachabilitySwift (5.0.0)
+  - Toast-Swift (5.0.1)
+  - TwitterProfile (1.0.0)
+  - Windless (0.1.5)
+
+DEPENDENCIES:
+  - Cosmos (~> 23.0)
+  - FittedSheets
+  - Kingfisher
+  - Moya
+  - ObjectMapper
+  - PullToRefreshKit
+  - ReachabilitySwift
+  - Toast-Swift (~> 5.0.1)
+  - TwitterProfile
+  - Windless
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cosmos
+    - FittedSheets
+    - Kingfisher
+    - Moya
+    - ObjectMapper
+    - PullToRefreshKit
+    - ReachabilitySwift
+    - Toast-Swift
+    - TwitterProfile
+    - Windless
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  FittedSheets: 5533375af9ed713977b8e6d88b74c90e8f5df041
+  Kingfisher: 7b64389a43139c903ec434788344c288217c792d
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  ObjectMapper: b53ae947d370bf89423e86be7d4e2d2b2a8d3f40
+  PullToRefreshKit: 7cc53e720e69f135cffa1a57784dfb534f0222ab
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  TwitterProfile: bbbf6e1ed97e57e8da673e13f8e155b56e922b5e
+  Windless: c6b7d63ac3a0c7e6b241e316650d4605abf71894
+
+PODFILE CHECKSUM: 27213238b4d6cf04ad12b51fbd21fa81e5bd2061
+
+COCOAPODS: 1.9.1

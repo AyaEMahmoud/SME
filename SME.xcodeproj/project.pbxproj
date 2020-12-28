@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		9BAE6E5923D821123A036DAA /* Pods_SME.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00E7B71A1E6448D4C15D74F /* Pods_SME.framework */; };
 		E00AE29F2599C5AF00E76BD7 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00AE29E2599C5AE00E76BD7 /* Colors.swift */; };
 		E00AE2A12599C5ED00E76BD7 /* UIColor+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00AE2A02599C5ED00E76BD7 /* UIColor+Extentions.swift */; };
@@ -35,6 +36,12 @@
 		E053D325259624C40069B367 /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053D324259624C40069B367 /* HeaderViewController.swift */; };
 		E053D327259624C80069B367 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053D326259624C80069B367 /* LabelCell.swift */; };
 		E053D329259624CC0069B367 /* XLPagerTabStripExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053D328259624CC0069B367 /* XLPagerTabStripExampleViewController.swift */; };
+=======
+		E012873425893A83004E551C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E012873325893A83004E551C /* Coordinator.swift */; };
+		E012873625893BEC004E551C /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E012873525893BEC004E551C /* MainCoordinator.swift */; };
+		E038BC032586E2680062EA67 /* Stage.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E038BC022586E2680062EA67 /* Stage.xcconfig */; };
+		E038BC052586E2740062EA67 /* Demo.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E038BC042586E2740062EA67 /* Demo.xcconfig */; };
+>>>>>>> coordinator
 		E05433852580C0900036A881 /* 29LT_Azer-Medium.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E05433822580C0900036A881 /* 29LT_Azer-Medium.OTF */; };
 		E05433862580C0900036A881 /* 29LT_Azer-Bold.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E05433832580C0900036A881 /* 29LT_Azer-Bold.OTF */; };
 		E05433872580C0900036A881 /* 29LT_Azer-Regular.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E05433842580C0900036A881 /* 29LT_Azer-Regular.OTF */; };
@@ -121,6 +128,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		2C1166D51FF59CF4FDF5AC6B /* Pods-SME.stage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SME.stage.xcconfig"; path = "Target Support Files/Pods-SME/Pods-SME.stage.xcconfig"; sourceTree = "<group>"; };
 		4952D29A2BFB3873162ABE6A /* Pods-SME.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SME.release.xcconfig"; path = "Target Support Files/Pods-SME/Pods-SME.release.xcconfig"; sourceTree = "<group>"; };
 		63E68B298E552CE544565660 /* Pods-SME.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SME.debug.xcconfig"; path = "Target Support Files/Pods-SME/Pods-SME.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +143,10 @@
 		E02EB730259399E9001836D5 /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
 		E02EB73125939A07001836D5 /* FittedSheets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FittedSheets; path = Pods/FittedSheets; sourceTree = "<group>"; };
 		E02EB73225939A0D001836D5 /* TwitterProfile */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TwitterProfile; path = Pods/TwitterProfile; sourceTree = "<group>"; };
+=======
+		E012873325893A83004E551C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E012873525893BEC004E551C /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+>>>>>>> coordinator
 		E038BC022586E2680062EA67 /* Stage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Stage.xcconfig; sourceTree = "<group>"; };
 		E038BC042586E2740062EA67 /* Demo.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Demo.xcconfig; sourceTree = "<group>"; };
 		E04DB7832594718100378A3E /* SchedulesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulesData.swift; sourceTree = "<group>"; };
@@ -235,6 +247,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		20BD062ACEA1EFCD9919880D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +268,15 @@
 				E00AE2A92599D4FD00E76BD7 /* CollectionViewCell.xib */,
 			);
 			path = ChildViews;
+=======
+		E012873225893A6B004E551C /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				E012873325893A83004E551C /* Coordinator.swift */,
+				E012873525893BEC004E551C /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
+>>>>>>> coordinator
 			sourceTree = "<group>";
 		};
 		E038BC012586E2570062EA67 /* Config */ = {
@@ -345,7 +367,11 @@
 		E0E70D44257B65B2009198C4 /* SME */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				E053D30C2596245D0069B367 /* TwitterPro */,
+=======
+				E012873225893A6B004E551C /* Coordinators */,
+>>>>>>> coordinator
 				E038BC012586E2570062EA67 /* Config */,
 				E0F0B876257E5804002B1912 /* InternetChecker.swift */,
 				E0E70DF7257DFE85009198C4 /* Presenters */,
@@ -781,6 +807,7 @@
 				E053D310259624730069B367 /* BottomPageDelegate.swift in Sources */,
 				E0E70D7A257B6ABA009198C4 /* CardViewController.swift in Sources */,
 				E0E70DF0257D1A49009198C4 /* UIView+Extentions.swift in Sources */,
+				E012873625893BEC004E551C /* MainCoordinator.swift in Sources */,
 				E0E70DDB257CB096009198C4 /* UIButton+Extentions.swift in Sources */,
 				E04DB79F2594B8C100378A3E /* ScheduleViewController.swift in Sources */,
 				E053D30E2596246F0069B367 /* Extensions.swift in Sources */,
@@ -789,7 +816,11 @@
 				E0E70D9D257B7401009198C4 /* ProfilesService.swift in Sources */,
 				E0E70DCF257B74FA009198C4 /* SsoUser.swift in Sources */,
 				E0F0B875257E326B002B1912 /* File.swift in Sources */,
+<<<<<<< HEAD
 				E00AE2A82599D4EF00E76BD7 /* CollectionViewCell.swift in Sources */,
+=======
+				E012873425893A83004E551C /* Coordinator.swift in Sources */,
+>>>>>>> coordinator
 				E0E70D80257B6B43009198C4 /* Card.swift in Sources */,
 				E0E70DD0257B74FA009198C4 /* Bsa.swift in Sources */,
 				E0E70DCC257B74FA009198C4 /* Profiles.swift in Sources */,
